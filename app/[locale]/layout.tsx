@@ -12,7 +12,19 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
 
-  return <NextIntlClientProvider>{children}</NextIntlClientProvider>;
+  return (
+    <NextIntlClientProvider>
+      <div
+        className="
+      bg-background
+      text-secondary
+      min-h-screen
+      "
+      >
+        {children}
+      </div>
+    </NextIntlClientProvider>
+  );
 }
 
 export function generateStaticParams() {

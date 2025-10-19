@@ -1,26 +1,119 @@
 @import "tailwindcss";
 
+.qw {
+  border: 1px solid red;
+}
+.as {
+  border: 1px solid blue;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #181b32;
+  --font-exo2: var(--font-exo2);
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
+  --color-primary: #fef08a;
+  --color-secondary: #f5f5f5;
+
+  --color-card: #21232e;
+  --color-card-header: #16161c;
+
+  --color-text-primary: #e6e6e6;
+  --color-text-secondary: #b8b8b8;
+}
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Custom animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Button styles */
+@layer components {
+  .my-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 cursor-pointer;
+  }
+
+  .my-title {
+    @apply text-3xl md:text-5xl lg:text-6xl font-bold;
+  }
+  .my-subtitle {
+    @apply text-xl md:text-2xl font-bold;
+  }
+  .my-text {
+    @apply text-lg md:text-xl font-bold;
+  }
+  .my-label {
+    @apply text-sm md:text-base font-medium text-text-secondary;
+  }
 }

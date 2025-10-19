@@ -1,14 +1,17 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Hero from "./components/Hero";
+import Habilities from "./components/Habilities";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
-    <main className="p-8 text-center">
-      <h1 className="text-4xl font-bold">{t("title")}</h1>
-      <Link href="/about" className="underline text-blue-600 mt-4 block">
-        {t("about")}
-      </Link>
+    <main>
+      <Hero />
+      <Habilities />
+      <div className="my-container min-h-screen">
+        <h2 className="my-title">Services</h2>
+      </div>
     </main>
   );
 }

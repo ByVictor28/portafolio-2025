@@ -2,5 +2,23 @@
   "HomePage": {
     "title": "¡Hola mundo!",
     "about": "Ir a la página Acerca de"
+  },
+  "Navigation": {
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "work": "Trabajos",
+    "contact": "Contacto",
+    "letsTalk": "Hablemos"
+  },
+  "Hero": {
+    "career": "Ingeniero de Software, Desarrollador Full Stack , Experto en SEO",
+    "greeting": "¡Dale vida a esa idea que tienes, la crearemos juntos!"
+  },
+  "Habilities": {
+    "title": "Habilidades",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Bases de Datos",
+    "tools": "Herramientas"
   }
 }
