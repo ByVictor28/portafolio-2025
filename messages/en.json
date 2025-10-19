@@ -20,5 +20,47 @@
     "backend": "Backend",
     "databases": "Databases",
     "tools": "Tools"
+  },
+  "Experience": {
+    "title": "Work & Leadership Experience",
+    "keyAchievements": "Key Achievements & Responsibilities",
+    "applab": {
+      "jobTitle": "Front End Developer",
+      "company": "APPLAB (Digital Solutions Agency)",
+      "location": "Remote",
+      "dates": "September 2022 – Present",
+      "achievement1": "Managed end-to-end front-end development, consistently demonstrating strong coding skills and a keen eye for UI/UX design.",
+      "achievement2": "Collaborated with a team of 4+ developers and designers to successfully deliver 7+ dynamic web applications, leading to improved client satisfaction.",
+      "achievement3": "Conducted regular meetings and consultations with clients to gather feedback, clarify requirements, and present progress updates.",
+      "achievement4": "Demonstrated adaptability by quickly acquiring proficiency in REACT and VUE through self-guided learning and hands-on experimentation."
+    },
+    "rour": {
+      "jobTitle": "Full Stack Developer (MERN, MEVN)",
+      "company": "ROUR",
+      "location": "Remote",
+      "dates": "August 2021 – January 2024",
+      "achievement1": "Engineered a property rental application complete with integrated online payment functionality.",
+      "achievement2": "Mastered the use of cutting-edge web technologies, including the development of PWA applications.",
+      "achievement3": "Evaluated and selected optimal solutions for authentication, security, storage, analytics, and performance across the development of different web pages.",
+      "achievement4": "Developed multiple user stories by applying various technologies correctly."
+    },
+    "dacomp": {
+      "jobTitle": "Android and Backend Developer",
+      "company": "DAComp S.C",
+      "location": "Aguascalientes, Aguascalientes/México",
+      "dates": "December 2020 – December 2021",
+      "achievement1": "Collaborated with multiple teams across different company projects.",
+      "achievement2": "Android Focus: Fixed multiple issues across the company's various mobile applications.",
+      "achievement3": "SpringBoot Backend Focus: Created new endpoints to expand the functionality of the company's multiple services."
+    },
+    "cdc": {
+      "jobTitle": "Leader and Administrator",
+      "company": "Club CDC: Centro de Desarrollo de Software y Capacitación",
+      "location": "Instituto Tecnologico Superior Zacatecas Norte",
+      "dates": "Leadership Role",
+      "achievement1": "Worked as an administrator, managing the club's operations.",
+      "achievement2": "Collaborated with a student team to develop multiple applications aimed at learning and improving university programs.",
+      "achievement3": "Developed a program alongside a student team, adhering to the internationally recognized ISO 29110 standard."
+    }
   }
 }

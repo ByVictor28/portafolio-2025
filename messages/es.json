@@ -20,5 +20,47 @@
     "backend": "Backend",
     "databases": "Bases de Datos",
     "tools": "Herramientas"
+  },
+  "Experience": {
+    "title": "Experiencia Laboral y Liderazgo",
+    "keyAchievements": "Logros Clave y Responsabilidades",
+    "applab": {
+      "jobTitle": "Desarrollador Front End",
+      "company": "APPLAB (Agencia de Soluciones Digitales)",
+      "location": "Remoto",
+      "dates": "Septiembre 2022 – Presente",
+      "achievement1": "Gestioné el desarrollo front-end de extremo a extremo, demostrando consistentemente sólidas habilidades de programación y un ojo agudo para el diseño UI/UX.",
+      "achievement2": "Colaboré con un equipo de más de 4 desarrolladores y diseñadores para entregar exitosamente más de 7 aplicaciones web dinámicas, mejorando la satisfacción del cliente.",
+      "achievement3": "Realicé reuniones regulares y consultas con clientes para recopilar comentarios, aclarar requisitos y presentar actualizaciones de progreso.",
+      "achievement4": "Demostré adaptabilidad al adquirir rápidamente competencia en REACT y VUE a través de aprendizaje autoguiado y experimentación práctica."
+    },
+    "rour": {
+      "jobTitle": "Desarrollador Full Stack (MERN, MEVN)",
+      "company": "ROUR",
+      "location": "Remoto",
+      "dates": "Agosto 2021 – Enero 2024",
+      "achievement1": "Desarrollé una aplicación de alquiler de propiedades completa con funcionalidad de pago en línea integrada.",
+      "achievement2": "Dominé el uso de tecnologías web de vanguardia, incluyendo el desarrollo de aplicaciones PWA.",
+      "achievement3": "Evalué y seleccioné soluciones óptimas para autenticación, seguridad, almacenamiento, análisis y rendimiento en el desarrollo de diferentes páginas web.",
+      "achievement4": "Desarrollé múltiples historias de usuario aplicando correctamente diversas tecnologías."
+    },
+    "dacomp": {
+      "jobTitle": "Desarrollador Android y Backend",
+      "company": "DAComp S.C",
+      "location": "Aguascalientes, Aguascalientes/México",
+      "dates": "Diciembre 2020 – Diciembre 2021",
+      "achievement1": "Colaboré con múltiples equipos en diferentes proyectos de la empresa.",
+      "achievement2": "Enfoque Android: Solucioné múltiples problemas en las diversas aplicaciones móviles de la empresa.",
+      "achievement3": "Enfoque Backend SpringBoot: Creé nuevos endpoints para expandir la funcionalidad de los múltiples servicios de la empresa."
+    },
+    "cdc": {
+      "jobTitle": "Líder y Administrador",
+      "company": "Club CDC: Centro de Desarrollo de Software y Capacitación",
+      "location": "Instituto Tecnológico Superior Zacatecas Norte",
+      "dates": "Rol de Liderazgo",
+      "achievement1": "Trabajé como administrador, gestionando las operaciones del club.",
+      "achievement2": "Colaboré con un equipo de estudiantes para desarrollar múltiples aplicaciones destinadas a aprender y mejorar los programas universitarios.",
+      "achievement3": "Desarrollé un programa junto con un equipo de estudiantes, adhiriéndose al estándar ISO 29110 reconocido internacionalmente."
+    }
   }
 }
