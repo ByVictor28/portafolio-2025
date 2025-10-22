@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import Hero from "./components/Hero";
 import Habilities from "./components/Habilities";
 import Experience from "./components/Experience";
+import ContactForm from "./components/ContactForm";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
@@ -11,9 +12,7 @@ export default function HomePage() {
       <Hero />
       <Habilities />
       <Experience />
-      <div className="my-container min-h-screen">
-        <h2 className="my-title">Services</h2>
-      </div>
+      <ContactForm />
     </main>
   );
 }

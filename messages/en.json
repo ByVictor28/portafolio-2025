@@ -62,5 +62,29 @@
       "achievement2": "Collaborated with a student team to develop multiple applications aimed at learning and improving university programs.",
       "achievement3": "Developed a program alongside a student team, adhering to the internationally recognized ISO 29110 standard."
     }
+  },
+  "ContactForm": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind or just want to chat? I'd love to hear from you!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or just say hello...",
+      "sendButton": "Send Message",
+      "sendingButton": "Sending..."
+    },
+    "rightSide": {
+      "readyText": "Are you ready to bring your next project to life?",
+      "descriptionText": "Please fill out the form and tell me your idea. I'll be happy to help you!",
+      "orContactText": "or contact me by",
+      "emailButton": "Email",
+      "linkedinButton": "LinkedIn"
+    },
+    "footer": {
+      "responseTime": "I typically respond within 24 hours. For urgent matters, feel free to reach out."
+    }
   }
 }

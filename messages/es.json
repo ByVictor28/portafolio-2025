@@ -62,5 +62,29 @@
       "achievement2": "Colaboré con un equipo de estudiantes para desarrollar múltiples aplicaciones destinadas a aprender y mejorar los programas universitarios.",
       "achievement3": "Desarrollé un programa junto con un equipo de estudiantes, adhiriéndose al estándar ISO 29110 reconocido internacionalmente."
     }
+  },
+  "ContactForm": {
+    "title": "Ponte en Contacto",
+    "description": "¿Tienes un proyecto en mente o solo quieres charlar? ¡Me encantaría saber de ti!",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu.correo@ejemplo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto o simplemente saluda...",
+      "sendButton": "Enviar Mensaje",
+      "sendingButton": "Enviando..."
+    },
+    "rightSide": {
+      "readyText": "¿Estás listo para dar vida a tu próximo proyecto?",
+      "descriptionText": "Por favor, completa el formulario y cuéntame tu idea. ¡Estaré encantado de ayudarte!",
+      "orContactText": "o contáctame por",
+      "emailButton": "Correo",
+      "linkedinButton": "LinkedIn"
+    },
+    "footer": {
+      "responseTime": "Normalmente respondo dentro de 24 horas. Para asuntos urgentes, no dudes en contactarme."
+    }
   }
 }

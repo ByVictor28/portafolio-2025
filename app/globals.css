@@ -101,7 +101,7 @@ body {
     @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
   }
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200 cursor-pointer;
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full text-black  bg-primary hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all duration-200 cursor-pointer;
   }
 
   .my-title {
@@ -115,5 +115,9 @@ body {
   }
   .my-label {
     @apply text-sm md:text-base font-medium text-text-secondary;
+  }
+
+  .my-input {
+    @apply w-full px-4 py-3 border border-text-secondary rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200;
   }
 }
