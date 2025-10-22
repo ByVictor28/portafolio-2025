@@ -12,7 +12,9 @@
   },
   "Hero": {
     "career": "Ingeniero de Software, Desarrollador Full Stack , Experto en SEO",
-    "greeting": "¡Dale vida a esa idea que tienes, la crearemos juntos!"
+    "greeting": "¡Dale vida a esa idea que tienes, la crearemos juntos!",
+    "resumeButton": "Descargar CV",
+    "contactButton": "Contactame"
   },
   "Habilities": {
     "title": "Habilidades",

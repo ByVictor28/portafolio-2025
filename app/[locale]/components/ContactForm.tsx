@@ -7,6 +7,7 @@ import { motion } from "motion/react";
 import { Mail } from "lucide-react";
 import LinkedIn from "@/public/icons/LinkedIn";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 // Submit button component with loading state
 function SubmitButton() {
@@ -99,9 +100,9 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="my-container mt-10">
+    <section className="my-container my-20 mb-56" id="contact">
       <motion.h2
-        initial={{ opacity: 0, y: 100 }}
+        initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ ease: "easeOut", duration: 1 }}
         className="my-subtitle w-full mt-10"
@@ -117,8 +118,8 @@ export default function ContactForm() {
       >
         {t("description")}
       </motion.p>
-      <div className="flex gap-8 mt-10">
-        <div className="flex flex-col gap-y-8  text-text-secondary w-1/2">
+      <div className="flex flex-col md:flex-row gap-8 mt-10">
+        <div className="flex flex-col gap-y-8  text-text-secondary w-full md:w-1/2">
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -186,10 +187,10 @@ export default function ContactForm() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ ease: "easeOut", duration: 1 }}
-          className="w-1/2 flex flex-col gap-y-4 text-center"
+          className="w-full md:w-1/2 flex flex-col gap-y-4 text-center"
         >
           <p className="my-text">{t("rightSide.readyText")}</p>
           <p className="">{t("rightSide.descriptionText")}</p>
@@ -201,14 +202,29 @@ export default function ContactForm() {
             <div className="my-separator-line w-1/2 border-b-1 border-text-secondary"></div>
           </div>
           <div className="flex gap-x-4 justify-center">
-            <button className="btn-primary">
-              <Mail className="w-5 h-5 inline-block mr-3" />
-              {t("rightSide.emailButton")}
-            </button>
-            <button className="btn-primary">
-              <LinkedIn className="w-5 h-5 inline-block mr-3" />
-              {t("rightSide.linkedinButton")}
-            </button>
+            <Link
+              href={`mailto:${process.env.SENDGRID_TO_EMAIL}`}
+              target="_blank"
+            >
+              <button
+                className="btn-primary"
+                onClick={() =>
+                  (window.location.href = `mailto:${process.env.SENDGRID_TO_EMAIL}`)
+                }
+              >
+                <Mail className="w-5 h-5 inline-block mr-3" />
+                {t("rightSide.emailButton")}
+              </button>
+            </Link>
+            <Link
+              href={`https://www.linkedin.com/in/victordelfin/`}
+              target="_blank"
+            >
+              <button className="btn-primary">
+                <LinkedIn className="w-5 h-5 inline-block mr-3" />
+                {t("rightSide.linkedinButton")}
+              </button>
+            </Link>
           </div>
         </motion.div>
       </div>

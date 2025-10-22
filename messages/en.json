@@ -12,7 +12,9 @@
   },
   "Hero": {
     "career": "Software Engineer, Full Stack Developer, SEO Expert",
-    "greeting": "Give life to that idea you have, we will create it together!"
+    "greeting": "Give life to that idea you have, we will create it together!",
+    "resumeButton": "Download Resume",
+    "contactButton": "Contact Me"
   },
   "Habilities": {
     "title": "Habilities",

@@ -1,6 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing"; // keep path alias if you use @/ in tsconfig
+import FloatSidebar from "../components/FloatSidebar";
 
 export default async function LocaleLayout({
   children,
@@ -22,6 +23,7 @@ export default async function LocaleLayout({
       "
       >
         {children}
+        <FloatSidebar locale={locale} />
       </div>
     </NextIntlClientProvider>
   );

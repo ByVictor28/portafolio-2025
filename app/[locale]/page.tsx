@@ -9,10 +9,18 @@ export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
     <main>
-      <Hero />
-      <Habilities />
-      <Experience />
-      <ContactForm />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="habilities">
+        <Habilities />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="contact">
+        <ContactForm />
+      </section>
     </main>
   );
 }

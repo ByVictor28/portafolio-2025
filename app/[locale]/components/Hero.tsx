@@ -5,6 +5,8 @@ import LinkedIn from "@/public/icons/LinkedIn";
 import Github from "@/public/icons/Github";
 import Instagram from "@/public/icons/Instagram";
 import * as motion from "motion/react-client";
+import { Download } from "lucide-react";
+import DownloadButton from "./DownloadButton";
 
 export default async function Hero() {
   const t = await getTranslations("Hero");
@@ -22,9 +24,9 @@ export default async function Hero() {
           <p className="my-subtitle text-primary">{t("career")}</p>
           <div>
             <p className="my-text">{t("greeting")}</p>
-            <div className="flex gap-2 mt-2">
+            <div className="flex justify-center md:justify-start gap-2 mt-2">
               <Link href="https://github.com/ByVictor28" target="_blank">
-                <Github className="w-10 h-10 text-white" />
+                <Github className="w-10 h-10 text-white hover:shadow-lg shadow-[#929294]" />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/victordelfin/"
@@ -37,6 +39,12 @@ export default async function Hero() {
                 target="_blank"
               >
                 <Instagram className="w-10 h-10 text-white" />
+              </Link>
+            </div>
+            <div className="flex gap-2 mt-4 items-center ">
+              <DownloadButton text={t("resumeButton")} />
+              <Link href="#contact">
+                <button className="btn-outline">{t("contactButton")}</button>
               </Link>
             </div>
           </div>
