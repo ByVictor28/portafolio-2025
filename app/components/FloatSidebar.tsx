@@ -3,7 +3,16 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
-import { Home, Code, Briefcase, Mail, Languages, Menu, X } from "lucide-react";
+import {
+  Home,
+  Code,
+  Briefcase,
+  FolderOpen,
+  Mail,
+  Languages,
+  Menu,
+  X,
+} from "lucide-react";
 import * as motion from "motion/react-client";
 
 interface FloatSidebarProps {
@@ -21,6 +30,7 @@ export default function FloatSidebar({ locale }: FloatSidebarProps) {
     { id: "hero", icon: Home, label: "Home" },
     { id: "habilities", icon: Code, label: t("services") },
     { id: "experience", icon: Briefcase, label: t("work") },
+    { id: "projects", icon: FolderOpen, label: t("projects") },
     { id: "contact", icon: Mail, label: t("contact") },
   ];
 
@@ -40,7 +50,13 @@ export default function FloatSidebar({ locale }: FloatSidebarProps) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["hero", "habilities", "experience", "contact"];
+      const sections = [
+        "hero",
+        "habilities",
+        "experience",
+        "projects",
+        "contact",
+      ];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -115,7 +131,7 @@ export default function FloatSidebar({ locale }: FloatSidebarProps) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection(section.id)}
-                className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 last:mb-0 transition-all duration-200 group relative ${
+                className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 last:mb-0 transition-all duration-200 group relative cursor-pointer ${
                   isActive
                     ? "bg-primary text-black shadow-lg"
                     : "text-primary hover:bg-primary/20 hover:text-white"

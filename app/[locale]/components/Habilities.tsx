@@ -132,7 +132,7 @@ export default async function Habilities() {
         <Braces className="w-10 h-10 inline-block" />
         {`${t("title")}`}
       </motion.h2>
-      {Object.entries(skillsData).map(([key, value]) => (
+      {Object.entries(skillsData).map(([key, value], index) => (
         <motion.div
           key={key}
           initial={{ y: -100, x: -100, opacity: 0 }}
@@ -141,7 +141,7 @@ export default async function Habilities() {
             x: 0,
             opacity: 1,
           }}
-          transition={{ ease: "easeOut", duration: 1 }}
+          transition={{ delay: 0.1 + index * 0.1 }}
           className={`bg-card w-full md:w-1/2 lg:w-1/4 rounded-lg overflow-hidden shadow-2xl flex flex-col grow border-t-3 ${value.topborder}`}
         >
           {/* header */}

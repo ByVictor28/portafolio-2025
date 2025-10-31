@@ -7,6 +7,7 @@
     "portfolio": "Portafolio",
     "services": "Servicios",
     "work": "Trabajos",
+    "projects": "Proyectos",
     "contact": "Contacto",
     "letsTalk": "Hablemos"
   },
@@ -63,6 +64,25 @@
       "achievement1": "Trabajé como administrador, gestionando las operaciones del club.",
       "achievement2": "Colaboré con un equipo de estudiantes para desarrollar múltiples aplicaciones destinadas a aprender y mejorar los programas universitarios.",
       "achievement3": "Desarrollé un programa junto con un equipo de estudiantes, adhiriéndose al estándar ISO 29110 reconocido internacionalmente."
+    }
+  },
+  "Projects": {
+    "title": "Proyectos Destacados",
+    "techStack": "Stack Tecnológico",
+    "clikealoCampaigns": {
+      "title": "Clikealo | Campañas \"White-Label\"",
+      "description": "Un motor de generación de campañas B2B \"White-Label\" diseñado para que socios estratégicos lancen portales de captura de leads y redención de códigos en minutos. La plataforma se destaca por su profunda personalización de marca (logos, colores, banners) y la capacidad de crear formularios dinámicos para adaptarse a cualquier campaña (ej. redención por # de serie). El sistema garantiza el cumplimiento legal de cada socio mediante enlaces configurables a sus propias políticas de privacidad y T&C.",
+      "techStack": "Vue.js (Vue 2, Vuex), Vuetify, Axios, API REST."
+    },
+    "clikealoEcommerce": {
+      "title": "Clikealo | E-commerce B2C/B2B",
+      "description": "Un e-commerce híbrido (B2C/B2B) a gran escala para la distribución de tecnología. La plataforma, construida con una arquitectura moderna usando Next.js 14 (App Router) y TypeScript, gestiona un catálogo masivo de marcas líderes (Intel, HP, ASUS) y marcas propias. El sitio cuenta con integraciones críticas de pago (Stripe, PayPal), soporte completo para internacionalización (i18n) y un robusto ecosistema de testing (Jest, Testing Library) para asegurar la calidad de la aplicación.",
+      "techStack": "Next.js 14, React 18, TypeScript, Material UI, Stripe, PayPal, Jest."
+    },
+    "nommad": {
+      "title": "Nommad | Plataforma SaaS (PropTech)",
+      "description": "\"Nommad\" es una plataforma SaaS \"todo en uno\" para el sector inmobiliario. El sistema centraliza el ciclo de vida completo de un inmueble (publicación, negociación, cierre) en un único panel, utilizando IA para filtrar y priorizar prospectos. Opera bajo un modelo de suscripción (SaaS) con múltiples planes, incluye branding personalizado para agencias y fue construido con un stack de última generación que incluye React 19 y soporte completo para internacionalización (i18n).",
+      "techStack": "Next.js 15, React 19, TypeScript, Tailwind CSS, Ant Design, i18n."
     }
   },
   "ContactForm": {

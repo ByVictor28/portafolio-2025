@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import Hero from "./components/Hero";
 import Habilities from "./components/Habilities";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 
 export default function HomePage() {
@@ -17,6 +18,9 @@ export default function HomePage() {
       </section>
       <section id="experience">
         <Experience />
+      </section>
+      <section id="projects">
+        <Projects />
       </section>
       <section id="contact">
         <ContactForm />

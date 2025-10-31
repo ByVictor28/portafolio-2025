@@ -7,6 +7,7 @@
     "portfolio": "Portfolio",
     "services": "Services",
     "work": "Works",
+    "projects": "Projects",
     "contact": "Contact",
     "letsTalk": "Let's Talk"
   },
@@ -63,6 +64,25 @@
       "achievement1": "Worked as an administrator, managing the club's operations.",
       "achievement2": "Collaborated with a student team to develop multiple applications aimed at learning and improving university programs.",
       "achievement3": "Developed a program alongside a student team, adhering to the internationally recognized ISO 29110 standard."
+    }
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "techStack": "Tech Stack",
+    "clikealoCampaigns": {
+      "title": "Clikealo | White-Label Campaigns",
+      "description": "A B2B \"White-Label\" campaign generation engine designed for strategic partners to launch lead capture portals and code redemption in minutes. The platform stands out for its deep brand personalization (logos, colors, banners) and the ability to create dynamic forms to adapt to any campaign (e.g., redemption by serial number). The system ensures legal compliance for each partner through configurable links to their own privacy policies and T&C.",
+      "techStack": "Vue.js (Vue 2, Vuex), Vuetify, Axios, REST API."
+    },
+    "clikealoEcommerce": {
+      "title": "Clikealo | B2C/B2B E-commerce",
+      "description": "A large-scale hybrid e-commerce (B2C/B2B) for technology distribution. The platform, built with modern architecture using Next.js 14 (App Router) and TypeScript, manages a massive catalog of leading brands (Intel, HP, ASUS) and private labels. The site features critical payment integrations (Stripe, PayPal), full support for internationalization (i18n) and a robust testing ecosystem (Jest, Testing Library) to ensure application quality.",
+      "techStack": "Next.js 14, React 18, TypeScript, Material UI, Stripe, PayPal, Jest."
+    },
+    "nommad": {
+      "title": "Nommad | SaaS Platform (PropTech)",
+      "description": "\"Nommad\" is an all-in-one SaaS platform for the real estate sector. The system centralizes the complete lifecycle of a property (publication, negotiation, closing) in a single panel, using AI to filter and prioritize prospects. It operates under a subscription model (SaaS) with multiple plans, includes custom branding for agencies, and was built with a cutting-edge stack that includes React 19 and full support for internationalization (i18n).",
+      "techStack": "Next.js 15, React 19, TypeScript, Tailwind CSS, Ant Design, i18n."
     }
   },
   "ContactForm": {
